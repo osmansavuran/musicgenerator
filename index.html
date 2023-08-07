@@ -5,6 +5,8 @@
 </head>
 <body>
     <h1 id="link"></h1>
+    <h2 id="name"></h2>
+
     <form action="" >
         <input type="text" id="input">
         <button id="convert" type="submit">Convert</button>
@@ -43,6 +45,8 @@ $("#convert").click(function(){
 
         videos.forEach(video => {
             document.getElementById("input").value=video.url;
+            document.getElementById("name").value=video.title;
+
 
         });
     }
