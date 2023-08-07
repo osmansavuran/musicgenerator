@@ -20,8 +20,8 @@ $("#convert").click(function(){
       });
 
     // YouTube API Anahtarını buraya girin
-    const API_KEY = 'AIzaSyDembMSy0xcsNagwRamlQPyC9tsn5rI8Mo';
-
+    //const API_KEY = 'AIzaSyDembMSy0xcsNagwRamlQPyC9tsn5rI8Mo';
+    const API_KEY = 'AIzaSyAJyi6tdmzms9cwZGdxsLORY9EpHknRtnc';
     // YouTube API'dan verileri çeken fonksiyon
     async function fetchYouTubeVideos() {
         const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&q=müzik&maxResults=1&part=snippet&type=video`);
