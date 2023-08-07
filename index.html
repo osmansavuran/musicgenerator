@@ -45,7 +45,7 @@ $("#convert").click(function(){
 
         videos.forEach(video => {
             document.getElementById("input").value=video.url;
-            document.getElementById("name").value=video.title;
+            document.getElementById("name").innerText=video.title;
 
 
         });
